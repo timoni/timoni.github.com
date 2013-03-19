@@ -1,27 +1,11 @@
 ---
 layout: page
-title: Hello World!
-tagline: Supporting tagline
 ---
 {% include JB/setup %}
 
-Read [Jekyll Quick Start](http://jekyllbootstrap.com/usage/jekyll-quick-start.html)
+<intro>Hi, I'm Timoni West, a web + mobile designer in Brooklyn, New York.  I currently work at [Foursquare](http://www.foursquare.com).  Before that, I worked at [Flickr](http://www.flickr.com/), and [Scribd](www.scribd.com). I've also done work with amazing startups around the country, including [Lift](http://lift.do/), [Bitly](http://bitly.com), [Airtime](http://www.airtime.com/), and [Causes](http://www.causes.com/).</intro>
 
-Complete usage and documentation available at: [Jekyll Bootstrap](http://jekyllbootstrap.com)
-
-## Update Author Attributes
-
-In `_config.yml` remember to specify your own data:
-    
-    title : My Blog =)
-    
-    author :
-      name : Name Lastname
-      email : blah@email.test
-      github : username
-      twitter : username
-
-The theme should reference these variables whenever needed.
+I'm most proud of [Recollect](http://recollect.com), which I made with [Chris Martin](http://about.me/cjmartin) and [Bertram Fan](http://thatsaspicymeatball.com/).
     
 ## Sample Posts
 
@@ -37,10 +21,4 @@ Here's a sample "posts list".
     <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
   {% endfor %}
 </ul>
-
-## To-Do
-
-This theme is still unfinished. If you'd like to be added as a contributor, [please fork](http://github.com/plusjade/jekyll-bootstrap)!
-We need to clean up the themes, make theme usage guides with theme-specific markup examples.
-
 
